@@ -1,210 +1,134 @@
 <template>
   <main>
-    <div class="bg-background">
+    <div class="bg-black-950">
       <main>
         <div>
           <!-- Hero card -->
-          <div class="bg-gray-900">
-
-
+          <div class="bg-black-800">
             <div class="relative isolate overflow-hidden pt-14">
-              <img
-                src="~/public/images/home/skyscraper.jpeg"
-                alt="" class="absolute inset-0 -z-10 size-full object-cover" />
-              <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-                aria-hidden="true">
-                <div
-                  class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                  style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
-              </div>
+              <img src="~/public/images/home/hero-green-2.jpeg" alt=""
+                class="absolute inset-0 -z-10 size-full object-cover mix-blend-multiply" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black-950/100 to-transparent -z-10" />
               <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-                  <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-                    <div
-                      class="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-                      Announcing our next round of funding. <a href="#" class="font-semibold text-white"><span
-                          class="absolute inset-0" aria-hidden="true"></span>Read more <span
-                          aria-hidden="true">&rarr;</span></a>
-                    </div>
-                  </div>
+                <div class="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
                   <div class="text-center">
-                    <h1 class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">Data to enrich
-                      your online business</h1>
-                    <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Anim aute id magna aliqua
-                      ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                      occaecat.</p>
+                    <h1 class="text-balance text-5xl font-bold tracking-tight text-white sm:text-7xl">Production-ready
+                      images built for visual storytelling
+                    </h1>
+                    <p class="mt-8 text-lg font-regular text-white/80 sm:text-lg/8 max-w-3xl mx-auto">Developed for
+                      creative professionals, with transparent terms and production-ready quality. Every artist
+                      deserves access to world-class image assets to bring their ideas to life.
+                    </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                      <a href="#"
-                        class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get
-                        started</a>
-                      <a href="#" class="text-sm/6 font-semibold text-white">Learn more <span
-                          aria-hidden="true">→</span></a>
+                      <button type="button"
+                        class="rounded-md bg-orange-400 px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore
+                        gallery</button>
+
+                      <button type="button"
+                        class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100">View
+                        our plans</button>
                     </div>
+                    <!-- studio social logos -->
+                    <div class="mt-20">
+                      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                        <div
+                          class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                          <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/transistor-logo-white.svg"
+                            alt="Transistor" width="158" height="48" />
+                          <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/reform-logo-white.svg"
+                            alt="Reform" width="158" height="48" />
+                          <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/tuple-logo-white.svg" alt="Tuple"
+                            width="158" height="48" />
+                          <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/savvycal-logo-white.svg"
+                            alt="SavvyCal" width="158" height="48" />
+                          <img
+                            class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/statamic-logo-white.svg"
+                            alt="Statamic" width="158" height="48" />
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
-              <div
-                class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-                aria-hidden="true">
-                <div
-                  class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-                  style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <!-- Logo cloud -->
-          <div class="bg-background-medium">
-            <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-              <p class="text-center text-base font-semibold text-gray-500">Trusted by over 5 very average small
-                businesses</p>
-              <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img class="h-12" src="https://tailwindcss.com/plus-assets/img/logos/tuple-logo-gray-400.svg"
-                    alt="Tuple">
-                </div>
-                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img class="h-12" src="https://tailwindcss.com/plus-assets/img/logos/mirage-logo-gray-400.svg"
-                    alt="Mirage">
-                </div>
-                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img class="h-12" src="https://tailwindcss.com/plus-assets/img/logos/statickit-logo-gray-400.svg"
-                    alt="StaticKit">
-                </div>
-                <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                  <img class="h-12" src="https://tailwindcss.com/plus-assets/img/logos/transistor-logo-gray-400.svg"
-                    alt="Transistor">
-                </div>
-                <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                  <img class="h-12" src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-gray-400.svg"
-                    alt="Workcation">
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
-        <!-- More main page content here... -->
-
-        <!-- Tab content -->
-        <div>
-          <div class="mx-auto mt-12 max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 sm:hidden">
-              <!-- Use an "onChange" listener to redirect the user to the selected tab URL. -->
-              <select aria-label="Select a tab"
-                class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
-                <option>My Account</option>
-                <option>Company</option>
-                <option selected>Team Members</option>
-                <option>Billing</option>
-              </select>
-              <svg
-                class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500"
-                viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
-                <path fill-rule="evenodd"
-                  d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"
-                  clip-rule="evenodd" />
-              </svg>
-            </div>
-            <div class="hidden sm:block">
-              <div class="border-b border-gray-200">
-                <nav class="-mb-px flex" aria-label="Tabs">
-                  <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                  <a href="#"
-                    class="w-1/4 border-b-2 border-transparent px-1 py-4 text-center text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">My
-                    Account</a>
-                  <a href="#"
-                    class="w-1/4 border-b-2 border-transparent px-1 py-4 text-center text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Company</a>
-                  <a href="#"
-                    class="w-1/4 border-b-2 border-indigo-500 px-1 py-4 text-center text-sm font-medium text-indigo-600"
-                    aria-current="page">Team Members</a>
-                  <a href="#"
-                    class="w-1/4 border-b-2 border-transparent px-1 py-4 text-center text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Billing</a>
-                </nav>
-              </div>
-            </div>
-          </div>
+        <!--bento grid-->
+        <div class="mx-auto mt-20 max-w-3xl text-center">
+          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">Real Assets for
+            Unreal Storytelling</h2>
+          <p class="mt-4 text-lg/8 text-gray-400">Curated image library of high-resolution imagery—shot with purpose and
+            built for visual storytelling. Everything you need in one place to create with confidence.</p>
         </div>
-
-        <!-- tab content-->
-
-        <div class="overflow-hidden bg-background py-24 sm:py-32">
-          <div class="mx-auto max-w-7xl md:px-6 lg:px-8">
-            <div class="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
-              <div class="px-6 lg:px-0 lg:pr-4 lg:pt-4">
-                <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-                  <h2 class="text-base/7 font-semibold text-accent-primary">Deploy faster</h2>
-                  <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-300 sm:text-5xl">A better
-                    workflow</p>
-                  <p class="mt-6 text-lg/8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-                  <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-300 lg:max-w-none">
-                    <div class="relative pl-9">
-                      <dt class="inline font-semibold text-gray-900">
-                        <svg class="absolute left-1 top-1 size-5 text-indigo-600" viewBox="0 0 20 20"
-                          fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd"
-                            d="M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z"
-                            clip-rule="evenodd" />
-                        </svg>
-                        Push to deploy.
-                      </dt>
-                      <dd class="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
-                        perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
-                    </div>
-                    <div class="relative pl-9">
-                      <dt class="inline font-semibold text-gray-900">
-                        <svg class="absolute left-1 top-1 size-5 text-indigo-600" viewBox="0 0 20 20"
-                          fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path fill-rule="evenodd"
-                            d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z"
-                            clip-rule="evenodd" />
-                        </svg>
-                        SSL certificates.
-                      </dt>
-                      <dd class="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-                        cupidatat commodo.</dd>
-                    </div>
-                    <div class="relative pl-9">
-                      <dt class="inline font-semibold text-gray-900">
-                        <svg class="absolute left-1 top-1 size-5 text-indigo-600" viewBox="0 0 20 20"
-                          fill="currentColor" aria-hidden="true" data-slot="icon">
-                          <path
-                            d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z" />
-                          <path fill-rule="evenodd"
-                            d="M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z"
-                            clip-rule="evenodd" />
-                        </svg>
-                        Database backups.
-                      </dt>
-                      <dd class="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit
-                        morbi lobortis.</dd>
-                    </div>
-                  </dl>
-                </div>
-              </div>
-              <div class="sm:px-6 lg:px-0">
+        <div class="bg-black-950 py-18 sm:py-2">
+          <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8 mb-20">
+            <div class="mt-4 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+              <div class="flex p-px lg:col-span-4">
                 <div
-                  class="relative isolate overflow-hidden bg-indigo-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
-                  <div
-                    class="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white"
-                    aria-hidden="true"></div>
-                  <div class="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-                    <img src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png"
-                      alt="Product screenshot" width="2432" height="1442"
-                      class="-mb-12 w-[57rem] max-w-none rounded-tl-xl bg-gray-800 ring-1 ring-white/10">
+                  class="overflow-hidden rounded-lg bg-black-800 ring-1 ring-white/15 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
+                  <img class="h-80 object-cover object-left" src="~/public/images/home/bento/sky-hdri.jpg" alt="" />
+                  <div class="p-10">
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-white">360° 50k Panoramic Skies</p>
+                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Captured at 50k resolution with 90-second
+                      intervals, delivering unmatched clarity, light consistency, and dynamic range—so you can focus on
+                      creating without compromise.
+                    </p>
                   </div>
-                  <div class="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 sm:rounded-3xl"
-                    aria-hidden="true"></div>
+                </div>
+              </div>
+              <div class="flex p-px lg:col-span-2">
+                <div class="overflow-hidden rounded-lg bg-black-800 ring-1 ring-white/15 lg:rounded-tr-[2rem]">
+                  <img class="h-80 object-cover" src="~/public/images/home/bento/location-hdri.jpg" alt="" />
+                  <div class="p-10">
+                    <!--<h3 class="text-sm/4 font-semibold text-gray-400">360° 50k Location HDRIs</h3>-->
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-white">Location HDRIs</p>
+                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Captured at 50k resolution with natural light,
+                      multiple angles, and unclipped luminance—giving you the freedom to light your scenes with
+                      intention.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex p-px lg:col-span-2">
+                <div class="overflow-hidden rounded-lg bg-black-800 ring-1 ring-white/15 lg:rounded-bl-[2rem]">
+                  <img class="h-80 object-cover"
+                    src="https://tailwindcss.com/plus-assets/img/component-images/bento-02-security.png" alt="" />
+                  <div class="p-10">
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-white">Reference Photography</p>
+                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Captured with precision
+                      and delivered in 32bit EXR or 16bit RAW—never compressed, never clipped. Shot by artists who
+                      understand real-world pipelines, our library lets you find the right image faster.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex p-px lg:col-span-4">
+                <div
+                  class="overflow-hidden rounded-lg bg-black-800 ring-1 ring-white/15 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]">
+                  <img class="h-80 object-cover object-left"
+                    src="https://tailwindcss.com/plus-assets/img/component-images/bento-02-performance.png" alt="" />
+                  <div class="p-10">
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-white">Risk-Free Copyright</p>
+                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400">Industry-tailored copyright-safe asset licensing so
+                      you never have
+                      to second-guess what’s client-ready. Every image comes with clear, risk-free usage rights—so you
+                      can create freely and deliver with confidence, now and in the
+                      future.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+
+
+
 
         <!--features/showcase-->
         <div class="overflow-hidden bg-white py-24 sm:py-32">
@@ -357,10 +281,10 @@
 
 
         <!--pricing-->
-        <form class="group/tiers bg-gray-900 py-24 sm:py-32">
+        <form class="group/tiers bg-black-800 py-24 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-4xl text-center">
-              <h2 class="text-base/7 font-semibold text-indigo-400">Pricing</h2>
+              <h2 class="text-base/7 font-semibold text-accent-primary">Pricing</h2>
               <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Pricing that
                 grows with you</p>
             </div>

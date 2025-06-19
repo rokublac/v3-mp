@@ -21,17 +21,20 @@ export default defineNuxtConfig({
               900: '#0f172a',
               950: '#020617',
             },
-            background: {
-              DEFAULT: '#000000',
-              light: '#0a0a0a',
-              medium: '#161616',
-              dark: '#1f1f1f',
+            black: {
+              50: '#000000',
+              100: '#030303',
+              200: '#060606',
+              300: '#090909',
+              400: '#0c0c0c',
+              500: '#101010',
+              600: '#131313',
+              700: '#161616',
+              800: '#191919',
+              900: '#1c1c1c',
+              950: '#101114',
             },
-            text: {
-              light: '#ffffff',
-              medium: '#d4d4d4',
-              dark: '#b8b8b8',
-            },
+
             accent: {
               primary: '#7c3aed',
               secondary: '#8b5cf6',
