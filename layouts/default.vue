@@ -17,7 +17,7 @@
       <div class="flex flex-1 items-center justify-end gap-x-6">
         <a href="#" class="text-sm/6 font-semibold text-gray-200">Log in</a>
         <a href="#"
-          class="rounded-md bg-orange-400 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign
+          class="rounded-md bg-primary-200 px-3 py-2 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign
           up</a>
       </div>
     </nav>
@@ -28,14 +28,13 @@
     <NuxtPage />
   </main>
 
-  <footer class="bg-gray-900">
+  <footer class="bg-black-950">
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <img class="h-9" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+          <img class="h-9" src="~/public/images/mattepaint-full-white-logo.svg"
             alt="Company name">
-          <p class="text-balance text-sm/6 text-gray-300">Making the world a better place through constructing elegant
-            hierarchies.</p>
+          <p class="text-balance text-sm/6 text-gray-300">The image library built for visual storytellers.</p>
           <div class="flex gap-x-6">
             <a href="#" class="text-gray-400 hover:text-gray-300">
               <span class="sr-only">Facebook</span>
@@ -151,7 +150,7 @@
         </div>
       </div>
       <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-        <p class="text-sm/6 text-gray-400">&copy; 2024 Your Company, Inc. All rights reserved.</p>
+        <p class="text-sm/6 text-gray-400">&copy; 2025 MattePaint Pty Lts. All rights reserved.</p>
       </div>
     </div>
   </footer>
