@@ -6,26 +6,30 @@
           <!-- Hero card -->
           <div class="bg-black-800">
             <div class="relative isolate overflow-hidden pt-14">
-              <img src="~/public/images/home/hero-green-2.jpeg" alt=""
-                class="absolute inset-0 -z-10 size-full object-cover mix-blend-multiply" />
+              <video autoplay muted loop playsinline
+                class="absolute inset-0 -z-10 size-full object-cover mix-blend-multiply">
+                <source src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/dneg-reel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
               <div class="absolute inset-0 bg-gradient-to-t from-black-950/100 to-transparent -z-10" />
               <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <div class="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
+                <div class="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
                   <div class="text-center">
-                    <h1 class="text-balance text-5xl font-bold tracking-tight text-white sm:text-7xl">The image library
-                      built for visual storytellers
+                    <h1 class="text-balance text-5xl font-bold tracking-tight text-white sm:text-8xl">The image library
+                      built for unreal worlds
                     </h1>
-                    <p class="mt-8 text-lg font-regular text-white/80 sm:text-lg/8 max-w-3xl mx-auto">Developed for
-                      creative professionals, with transparent terms and production-ready quality. Every artist
-                      deserves access to world-class image assets to bring their ideas to life.
+                    <p class="mt-8 text-lg font-regular text-white/80 sm:text-lg/8 max-w-3xl mx-auto">Our curated image
+                      library offers high-quality, production-ready
+                      assets—no noise, just what you need. With transparent licensing and hand-picked references, we
+                      give artists the tools to build stunning worlds without compromise
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                       <button type="button"
-                        class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore
+                        class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore
                         gallery</button>
 
                       <button type="button"
-                        class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100">View
+                        class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">View
                         our plans</button>
                     </div>
                     <!-- studio social logos -->
@@ -61,76 +65,100 @@
         </div>
 
         <!--industry panels-->
-        <div class="bg-black-950 py-6 sm:py-12">
+        <div class="bg-black-950 py-24 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div
-              class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
-              <article
-                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-                <img src="https://variety.com/wp-content/uploads/2022/03/Dune-VFX.jpg?w=1000&h=563&crop=1" alt="" class="absolute inset-0 -z-10 size-full object-cover">
-                <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-                <h3 class="mt-3 text-3xl/6 font-bold text-white">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    VFX
-                  </a>
-                </h3>
-              </article>
-
-              <article
-                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-                <img src="https://www.topgear.com/sites/default/files/news-listicle/image/2023/01/2.jpeg" alt="" class="absolute inset-0 -z-10 size-full object-cover">
-                <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-                <h3 class="mt-3 text-3xl/6 font-bold text-white">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    Games
-                  </a>
-                </h3>
-              </article>
-
-              <article
-                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-                <img src="https://assets-architectureanddesign-au.s3.ap-southeast-2.amazonaws.com/Infinity-by-Crown-Group.jpg" alt="" class="absolute inset-0 -z-10 size-full object-cover">
-                <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-                <h3 class="mt-3 text-3xl/6 font-bold text-white">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    ArchViz
-                  </a>
-                </h3>
-              </article>
-
-              <article
-                class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-                <img src="https://images.squarespace-cdn.com/content/v1/5face19fd1200b5ef885a2fd/f5403604-f3ed-4a55-9fcd-c111979bfd52/WWFest_XRStage13.jpg?format=2500w" alt="" class="absolute inset-0 -z-10 size-full object-cover">
-                <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
-                <h3 class="mt-3 text-3xl/6 font-bold text-white">
-                  <a href="#">
-                    <span class="absolute inset-0"></span>
-                    Virtual Production
-                  </a>
-                </h3>
-              </article>
-
-              <!-- More posts... -->
+            <div class="mx-auto max-w-6xl sm:text-center">
+              <!-- <h2 class="text-base/7 font-semibold text-indigo-400">Everything you need</h2> -->
+              <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
+                Partnering with the world's most visionary filmmakers to bring incredible stories to life.</p>
+              <!--<p class="mt-6 text-lg/8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis.</p>-->
             </div>
           </div>
+
+          <div class="relative overflow-hidden pt-24">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <div class="aspect-[2432/1442] w-full rounded-xl overflow-hidden">
+                <video autoplay muted loop playsinline
+                  class="w-full h-full object-cover shadow-2xl ring-1 ring-white/10 rounded-xl" width="2432"
+                  height="1442">
+                  <source src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/dneg-reel.mp4"
+                    type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <!--industry panels-->
+          <div class="bg-black-950 py-0 sm:py-0">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <div
+                class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+                <article
+                  class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
+                  <img src="https://variety.com/wp-content/uploads/2022/03/Dune-VFX.jpg?w=1000&h=563&crop=1" alt=""
+                    class="absolute inset-0 -z-10 size-full object-cover">
+                  <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                  <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                  <h3 class="mt-3 text-3xl/6 font-bold text-white">
+                    <a href="#">
+                      <span class="absolute inset-0"></span>
+                      VFX
+                    </a>
+                  </h3>
+                </article>
+
+                <article
+                  class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
+                  <img src="https://www.topgear.com/sites/default/files/news-listicle/image/2023/01/2.jpeg" alt=""
+                    class="absolute inset-0 -z-10 size-full object-cover">
+                  <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                  <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                  <h3 class="mt-3 text-3xl/6 font-bold text-white">
+                    <a href="#">
+                      <span class="absolute inset-0"></span>
+                      Games
+                    </a>
+                  </h3>
+                </article>
+
+                <article
+                  class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
+                  <img
+                    src="https://assets-architectureanddesign-au.s3.ap-southeast-2.amazonaws.com/Infinity-by-Crown-Group.jpg"
+                    alt="" class="absolute inset-0 -z-10 size-full object-cover">
+                  <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                  <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                  <h3 class="mt-3 text-3xl/6 font-bold text-white">
+                    <a href="#">
+                      <span class="absolute inset-0"></span>
+                      ArchViz
+                    </a>
+                  </h3>
+                </article>
+
+                <article
+                  class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5face19fd1200b5ef885a2fd/f5403604-f3ed-4a55-9fcd-c111979bfd52/WWFest_XRStage13.jpg?format=2500w"
+                    alt="" class="absolute inset-0 -z-10 size-full object-cover">
+                  <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                  <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                  <h3 class="mt-3 text-3xl/6 font-bold text-white">
+                    <a href="#">
+                      <span class="absolute inset-0"></span>
+                      Virtual Production
+                    </a>
+                  </h3>
+                </article>
+
+                <!-- More posts... -->
+              </div>
+            </div>
+          </div>
+
         </div>
-
-
-
-
-
-
-
-
-
-
 
 
         <!--features/showcase-->
@@ -140,8 +168,7 @@
               class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
               <div class="lg:pr-4 lg:pt-4">
                 <div class="lg:max-w-lg">
-                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">The Sky For
-                    Your World Is Already Here</p>
+                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Illuminate your world, without compromise</p>
                   <p class="mt-6 text-lg/8 text-gray-400">With over 50,000 panoramic sky frames captured in 360° at 50K
                     resolution and timed at 90-second intervals, our library delivers the clarity, consistency, and
                     dynamic range your scenes deserves.
@@ -181,8 +208,7 @@
               class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div class="lg:ml-auto lg:pl-4 lg:pt-4">
                 <div class="lg:max-w-lg">
-                  <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">The Right
-                    Image, Without the Endless Search
+                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Less searching, more world building
                   </p>
                   <p class="mt-6 text-lg/8 text-gray-400">Over 500,000 production-ready images—featuring mountains,
                     cities, forests, deserts, skies, and more. Save time, stay focused, and create with confidence.</p>
@@ -223,8 +249,8 @@
               class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
               <div class="lg:pr-4 lg:pt-4">
                 <div class="lg:max-w-lg">
-                  <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">Create
-                    with Confidence, Deliver Without Worry
+                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Create
+                    with confidence, deliver without worry
                   </p>
                   <p class="mt-6 text-lg/8 text-gray-400">MattePaint provides copyright-clear asset contracts, so your
                     team can deliver with confidence. No more second-guessing usage rights—just reliable,
@@ -259,25 +285,23 @@
         </div>
 
         <!--customer success-->
-
-        <div
-          class="bg-[url('https://www.artofvfx.com/wp-content/uploads/2024/02/Shogun_TheWorldofShogun-jpg.webp')] bg-cover bg-center mt-16 mb-16">
-          <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-            <div class="mx-auto max-w-4xl text-center relative z-10">
-              <div class="absolute inset-0"></div>
-              <h2 class="text-balance text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Behind the visuals of
+        <div class="bg-[url('https://www.artofvfx.com/wp-content/uploads/2024/02/Shogun_TheWorldofShogun-jpg.webp')] bg-cover bg-center mt-16 mb-16">
+          <div class="px-6 py-24 sm:px-6 sm:py-48 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+              <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-6xl">Behind the visuals of
                 ‘Shōgun’ with MattePaint</h2>
               <p class="mx-auto mt-6 max-w-3xl text-pretty text-lg/8 text-gray-200">Goodbye Kansas Studios' took on a
                 significant challenge in creating the visual environments for Disney's Emmy award-winning miniseries,
                 Shōgun, using Mattepaint's assets to create a captivating portrayal of feudal Japan.</p>
-              <div class="mt-8">
+              <div class="mt-10 flex items-center justify-center gap-x-6">
                 <a href="#"
-                  class="inline-flex rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Learn
-                  more &rarr;</a>
+                  class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                  Read customer story &rarr; </a>
               </div>
             </div>
           </div>
         </div>
+
 
 
 
@@ -309,12 +333,11 @@
         <form class="group/tiers bg-black-950 py-24 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-4xl text-center">
-              <p class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Plans that scale
-                with your creative needs
+              <p class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Flexible plans for limitless creations
               </p>
             </div>
             <p class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-regular text-gray-400 sm:text-xl/8">
-              Plans designed for artists and studios—giving you access to premium assets, simple licensing, and more
+              Designed for artists and studios—giving you access to premium assets, simple licensing, and more
               time to create.
             </p>
             <div class="mt-16 flex justify-center">
@@ -401,14 +424,16 @@
         <div class="bg-black-950 py-6 sm:py-12">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl text-center">
-              <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">Behind The Magic.
+              <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">Behind The Magic
               </h2>
             </div>
             <div
               class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <article
                 class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-                <img src="https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg" alt="" class="absolute inset-0 -z-10 size-full object-cover">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg"
+                  alt="" class="absolute inset-0 -z-10 size-full object-cover">
                 <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
                 <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
                 <h3 class="mt-3 text-3xl/6 font-bold text-white">
@@ -421,7 +446,8 @@
 
               <article
                 class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-                <img src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg" alt="" class="absolute inset-0 -z-10 size-full object-cover">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
+                  alt="" class="absolute inset-0 -z-10 size-full object-cover">
                 <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
                 <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
                 <h3 class="mt-3 text-3xl/6 font-bold text-white">
@@ -434,7 +460,9 @@
 
               <article
                 class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
-                <img src="https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg" alt="" class="absolute inset-0 -z-10 size-full object-cover">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg"
+                  alt="" class="absolute inset-0 -z-10 size-full object-cover">
                 <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
                 <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
                 <h3 class="mt-3 text-3xl/6 font-bold text-white">
