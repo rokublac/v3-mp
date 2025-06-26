@@ -8,7 +8,7 @@
             <div class="relative isolate overflow-hidden pt-14">
               <video autoplay muted loop playsinline
                 class="absolute inset-0 -z-10 size-full object-cover mix-blend-multiply">
-                <source src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/dneg-reel.mp4" type="video/mp4">
+                <source src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/dneg-reel-optimized2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
               <div class="absolute inset-0 bg-gradient-to-t from-black-950/100 to-transparent -z-10" />
