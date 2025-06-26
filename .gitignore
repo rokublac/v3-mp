@@ -18,6 +18,9 @@ logs
 .fleet
 .idea
 
+# Video files
+public/videos/*
+
 # Local env files
 .env
 .env.*
