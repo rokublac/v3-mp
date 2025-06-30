@@ -8,29 +8,29 @@
             <div class="relative isolate overflow-hidden pt-14">
               <video autoplay muted loop playsinline
                 class="absolute inset-0 -z-10 size-full object-cover mix-blend-multiply">
-                <source src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/dneg-reel-optimized2.mp4" type="video/mp4">
+                <source src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/main-showcase.mp4"
+                  type="video/mp4">
                 Your browser does not support the video tag.
               </video>
               <div class="absolute inset-0 bg-gradient-to-t from-black-950/100 to-transparent -z-10" />
               <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
                   <div class="text-center">
-                    <h1 class="text-balance text-5xl font-bold tracking-tight text-white sm:text-8xl">The image library
-                      built for unreal worlds
+                    <h1 class="text-balance text-5xl font-bold tracking-tight text-white sm:text-7xl">Unlock your
+                      creativity with world-class reference images
                     </h1>
-                    <p class="mt-8 text-lg font-regular text-white/80 sm:text-lg/8 max-w-3xl mx-auto">Our curated image
-                      library offers high-quality, production-ready
-                      assets—no noise, just what you need. With transparent licensing and hand-picked references, we
-                      give artists the tools to build stunning worlds without compromise
+                    <p class="mt-8 text-lg font-regular text-gray-200 sm:text-lg/8 max-w-3xl mx-auto">Join leading
+                      studios and talented artists who trust us for the highest-quality reference photography and HDRIs.
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                       <button type="button"
-                        class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore
-                        gallery</button>
+                        class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">See
+                        pricing options
+                      </button>
 
                       <button type="button"
-                        class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">View
-                        our plans</button>
+                        class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">Explore
+                        our library</button>
                     </div>
                     <!-- studio social logos -->
                     <div class="mt-20">
@@ -64,33 +64,43 @@
           </div>
         </div>
 
-        <!--industry panels-->
-        <div class="bg-black-950 py-24 sm:py-32">
+        <div class="bg-black-950 py-24 mt-48 mb-12 sm:py-0">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-6xl sm:text-center">
-              <!-- <h2 class="text-base/7 font-semibold text-indigo-400">Everything you need</h2> -->
-              <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
-                Partnering with the world's most visionary filmmakers to bring incredible stories to life.</p>
-              <!--<p class="mt-6 text-lg/8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-                impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis.</p>-->
-            </div>
-          </div>
+            <div class="mx-auto max-w-2xl lg:max-w-none">
+              <div class="text-center">
+                <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Fueling the
+                  world’s most imaginative films, games, and experiences.
 
-          <div class="relative overflow-hidden pt-24">
-            <div class="mx-auto max-w-7xl px-6 lg:px-8">
-              <div class="aspect-[2432/1442] w-full rounded-xl overflow-hidden">
-                <video autoplay muted loop playsinline
-                  class="w-full h-full object-cover shadow-2xl ring-1 ring-white/10 rounded-xl" width="2432"
-                  height="1442">
-                  <source src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/dneg-reel.mp4"
-                    type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
+                </h2>
               </div>
+              
+              <dl
+                class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+                <div class="flex flex-col bg-white/5 p-8">
+                  <dt class="text-sm/6 font-semibold text-gray-300">Creators on the platform</dt>
+                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">1M+</dd>
+                </div>
+                <div class="flex flex-col bg-white/5 p-8">
+                  <dt class="text-sm/6 font-semibold text-gray-300">Flat platform fee</dt>
+                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">3%</dd>
+                </div>
+                <div class="flex flex-col bg-white/5 p-8">
+                  <dt class="text-sm/6 font-semibold text-gray-300">Uptime guarantee</dt>
+                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">99.9%</dd>
+                </div>
+                <div class="flex flex-col bg-white/5 p-8">
+                  <dt class="text-sm/6 font-semibold text-gray-300">Paid out to creators</dt>
+                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">$70M</dd>
+                </div>
+              </dl>
             </div>
           </div>
+        </div>
 
-          <!--industry panels-->
+
+
+        <!--industry panels-->
+        <div class="bg-black-950 py-24 mb-28 sm:py-0">
           <div class="bg-black-950 py-0 sm:py-0">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
               <div
@@ -168,11 +178,10 @@
               class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
               <div class="lg:pr-4 lg:pt-4">
                 <div class="lg:max-w-lg">
-                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Illuminate your world, without compromise</p>
-                  <p class="mt-6 text-lg/8 text-gray-400">With over 50,000 panoramic sky frames captured in 360° at 50K
-                    resolution and timed at 90-second intervals, our library delivers the clarity, consistency, and
-                    dynamic range your scenes deserves.
-
+                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Illuminate
+                    your world, without compromise</p>
+                  <p class="mt-6 text-lg/8 text-gray-400">Bring your creative vision to life with our 50K-resolution Sky
+                    HDRIs, captured at 30-second intervals in full 360-degree panoramas across entire day sequences.
                   </p>
                   <div class="mt-8">
                     <a href="#"
@@ -195,9 +204,10 @@
                   </figure>
                 </div>
               </div>
-              <img src="~/public/images/home/feature-sky-hdri.jpg" alt="Product screenshot"
+              <video src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/hdri-feature-video.mov"
+                alt="Product video"
                 class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
-                width="2432" height="1442" />
+                width="2432" height="1442" autoplay loop muted playsinline></video>
             </div>
           </div>
         </div>
@@ -208,10 +218,12 @@
               class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div class="lg:ml-auto lg:pl-4 lg:pt-4">
                 <div class="lg:max-w-lg">
-                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Less searching, more world building
+                  <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Cut your
+                    search time, fuel the creativity
                   </p>
-                  <p class="mt-6 text-lg/8 text-gray-400">Over 500,000 production-ready images—featuring mountains,
-                    cities, forests, deserts, skies, and more. Save time, stay focused, and create with confidence.</p>
+                  <p class="mt-6 text-lg/8 text-gray-400">Explore a diverse range of high-quality assets, from majestic
+                    mountains to vibrant cityscapes, making it easy to find exactly what you need.
+                  </p>
                   <div class="mt-8">
                     <a href="#"
                       class="inline-flex rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore
@@ -235,9 +247,10 @@
                 </div>
               </div>
               <div class="flex items-start justify-end lg:order-first">
-                <img src="~/public/images/home/feature-library.jpg" alt="Product screenshot"
+                <video src="/Users/rokuspace/development/mattepaint/v3-mp/public/videos/MountainBD02.mov"
+                  alt="Product video"
                   class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432"
-                  height="1442" />
+                  height="1442" autoplay loop muted playsinline></video>
               </div>
             </div>
           </div>
@@ -252,9 +265,9 @@
                   <p class="mt-2 text-pretty text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Create
                     with confidence, deliver without worry
                   </p>
-                  <p class="mt-6 text-lg/8 text-gray-400">MattePaint provides copyright-clear asset contracts, so your
-                    team can deliver with confidence. No more second-guessing usage rights—just reliable,
-                    production-safe imagery you can trust.
+                  <p class="mt-6 text-lg/8 text-gray-400">Our flexible licensing terms ensure you can focus on your
+                    creative projects without the worry, giving you peace of mind.
+
                   </p>
                   <div class="mt-8">
                     <a href="#"
@@ -278,30 +291,45 @@
                 </div>
               </div>
               <img src="~/public/images/home/copyright-shield.jpg" alt="Product screenshot"
-                class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
-                width="2432" height="1442" />
+                class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432"
+                height="1442" />
             </div>
           </div>
         </div>
 
         <!--customer success-->
-        <div class="bg-[url('https://www.artofvfx.com/wp-content/uploads/2024/02/Shogun_TheWorldofShogun-jpg.webp')] bg-cover bg-center mt-16 mb-16">
-          <div class="px-6 py-24 sm:px-6 sm:py-48 lg:px-8">
-            <div class="mx-auto max-w-4xl text-center">
-              <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-6xl">Behind the visuals of
-                ‘Shōgun’ with MattePaint</h2>
-              <p class="mx-auto mt-6 max-w-3xl text-pretty text-lg/8 text-gray-200">Goodbye Kansas Studios' took on a
-                significant challenge in creating the visual environments for Disney's Emmy award-winning miniseries,
-                Shōgun, using Mattepaint's assets to create a captivating portrayal of feudal Japan.</p>
-              <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="#"
-                  class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-                  Read customer story &rarr; </a>
+        <div class="bg-black-950 mt-28">
+          <div class="relative isolate overflow-hidden pt-14">
+            <div
+              class="absolute inset-0 bg-cover bg-center bg-[url('/Users/rokuspace/development/mattepaint/v3-mp/public/images/home/shogun-showcase.png')] -z-10">
+              <div class="absolute inset-0 bg-gradient-to-t from-black-950/100 to-transparent -z-10"></div>
+            </div>
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <div class="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
+                <div class="text-center">
+                  <h1 class="text-balance text-5xl font-bold tracking-tight text-white sm:text-6xl">See how Goodbye
+                    Kansas Studios' built ‘Shōgun’ with MattePaint
+
+                  </h1>
+                  <p class="mt-8 text-lg font-regular text-gray-200 sm:text-lg/8 max-w-3xl mx-auto">Goodbye Kansas
+                    Studios' took on a significant challenge in creating the visual environments for Disney's Emmy
+                    award-winning miniseries, Shōgun, using Mattepaint's assets to create a captivating portrayal of
+                    feudal Japan.
+
+
+                  </p>
+                  <div class="mt-10 flex items-center justify-center gap-x-6">
+
+
+                    <button type="button"
+                      class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">
+                      Read customer story &rarr; </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
 
 
 
@@ -333,7 +361,8 @@
         <form class="group/tiers bg-black-950 py-24 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-4xl text-center">
-              <p class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Flexible plans for limitless creations
+              <p class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Flexible
+                plans for limitless creations
               </p>
             </div>
             <p class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-regular text-gray-400 sm:text-xl/8">
@@ -366,8 +395,10 @@
                   </div>
                   <h3 id="tier-freelancer" class="text-3xl/8 font-semibold text-white">Personal</h3>
                 </div>
-                <p class="mt-4 mb-8 text-sm/6 text-gray-300">Designed for solo artists or small studios earning under
-                  $100K USD annually. Includes a single-seat personal license with access to high-resolution assets,
+                <p class="mt-4 mb-8 text-sm/6 text-gray-300">Designed for solo artists or small studios
+                  earning under
+                  $100K USD annually. Includes a single-seat personal license with access to high-resolution
+                  assets,
                   flexible credit usage, and support for JPG and RAW formats.
                 </p>
                 <p class="mt-4 text-sm/6 text-gray-300">From
@@ -395,8 +426,10 @@
                   </div>
                   <h3 id="tier-startup" class="text-3xl/8 font-semibold text-white">Commercial</h3>
                 </div>
-                <p class="mt-4 mb-8 text-sm/6 text-gray-300">Built for companies that need a robust, secure solution for
-                  team-based production. Includes single-site licensing, advanced user management, IP-based login
+                <p class="mt-4 mb-8 text-sm/6 text-gray-300">Built for companies that need a robust, secure
+                  solution for
+                  team-based production. Includes single-site licensing, advanced user management, IP-based
+                  login
                   controls, and access to high-resolution assets in multiple formats.
                 </p>
                 <p class="mt-4 text-sm/6 text-gray-300">From
@@ -424,7 +457,8 @@
         <div class="bg-black-950 py-6 sm:py-12">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl text-center">
-              <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">Behind The Magic
+              <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">Behind
+                The Magic
               </h2>
             </div>
             <div
@@ -479,7 +513,8 @@
           </div>
           <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-8">
             <div class="mx-auto max-w-2xl text-center">
-              <h2 class="text-balance text-base font-medium tracking-tight text-gray-400 sm:text-base">See more &rarr;
+              <h2 class="text-balance text-base font-medium tracking-tight text-gray-400 sm:text-base">See
+                more &rarr;
               </h2>
             </div>
           </div>
