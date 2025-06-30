@@ -24,13 +24,14 @@
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                       <button type="button"
-                        class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">See
+                        class="rounded-md bg-gray-100 px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">See
                         pricing options
                       </button>
 
-                      <button type="button"
-                        class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">Explore
-                        our library</button>
+                      <a href="https://mattepaint.com/gallery/"
+                        target="_blank" rel="noopener noreferrer"
+                        class="inline-flex rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">Explore
+                        our library</a>
                     </div>
                     <!-- studio social logos -->
                     <div class="mt-20">
@@ -38,20 +39,20 @@
                         <div
                           class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                           <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/transistor-logo-white.svg"
+                            src="/Users/rokuspace/development/mattepaint/v3-mp/public/images/studio logos/blur.png"
                             alt="Transistor" width="158" height="48" />
                           <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/reform-logo-white.svg"
+                            src="/Users/rokuspace/development/mattepaint/v3-mp/public/images/studio logos/dneg.png"
                             alt="Reform" width="158" height="48" />
                           <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/tuple-logo-white.svg" alt="Tuple"
-                            width="158" height="48" />
+                            src="/Users/rokuspace/development/mattepaint/v3-mp/public/images/studio logos/framestore.png"
+                            alt="Tuple" width="158" height="48" />
                           <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/savvycal-logo-white.svg"
+                            src="/Users/rokuspace/development/mattepaint/v3-mp/public/images/studio logos/fusefx.png"
                             alt="SavvyCal" width="158" height="48" />
                           <img
                             class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                            src="https://tailwindcss.com/plus-assets/img/logos/158x48/statamic-logo-white.svg"
+                            src="/Users/rokuspace/development/mattepaint/v3-mp/public/images/studio logos/scanline.png"
                             alt="Statamic" width="158" height="48" />
                         </div>
                       </div>
@@ -70,37 +71,41 @@
               <div class="text-center">
                 <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Fueling the
                   world’s most imaginative films, games, and experiences.
-
                 </h2>
               </div>
-              
-              <dl
-                class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-                <div class="flex flex-col bg-white/5 p-8">
-                  <dt class="text-sm/6 font-semibold text-gray-300">Creators on the platform</dt>
-                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">1M+</dd>
+
+              <div class="bg-black-950 py-24 sm:py-0 mt-28">
+                <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                  <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                      <dt class="text-base/7 text-gray-400">Reference images</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">500k+
+                      </dd>
+                    </div>
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                      <dt class="text-base/7 text-gray-400">Resolution</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">50k
+                      </dd>
+                    </div>
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                      <dt class="text-base/7 text-gray-400">Image categories</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">50+
+                      </dd>
+                    </div>
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                      <dt class="text-base/7 text-gray-400">Color quality</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">32-bit</dd>
+                    </div>
+                  </dl>
                 </div>
-                <div class="flex flex-col bg-white/5 p-8">
-                  <dt class="text-sm/6 font-semibold text-gray-300">Flat platform fee</dt>
-                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">3%</dd>
-                </div>
-                <div class="flex flex-col bg-white/5 p-8">
-                  <dt class="text-sm/6 font-semibold text-gray-300">Uptime guarantee</dt>
-                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">99.9%</dd>
-                </div>
-                <div class="flex flex-col bg-white/5 p-8">
-                  <dt class="text-sm/6 font-semibold text-gray-300">Paid out to creators</dt>
-                  <dd class="order-first text-3xl font-semibold tracking-tight text-white">$70M</dd>
-                </div>
-              </dl>
+              </div>
             </div>
           </div>
         </div>
 
 
-
         <!--industry panels-->
-        <div class="bg-black-950 py-24 mb-28 sm:py-0">
+        <div class="bg-black-950 py-24 mb-24 sm:py-0">
           <div class="bg-black-950 py-0 sm:py-0">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
               <div
@@ -184,7 +189,8 @@
                     HDRIs, captured at 30-second intervals in full 360-degree panoramas across entire day sequences.
                   </p>
                   <div class="mt-8">
-                    <a href="#"
+                    <a href="https://mattepaint.com/gallery/hdri/skies/"
+                      target="_blank" rel="noopener noreferrer"
                       class="inline-flex rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore
                       library &rarr;</a>
                   </div>
@@ -194,9 +200,8 @@
                         high resolutions.”</p>
                     </blockquote>
                     <figcaption class="mt-6 flex gap-x-4 text-sm/6">
-                      <img
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt="" class="size-6 flex-none rounded-full" />
+                      <img src="https://assets-cdn.mattepaint.com/landing/_nuxt/seppsonntag.B45pU5yw.jpg" alt=""
+                        class="size-6 flex-none rounded-full" />
                       <div><span class="font-semibold text-gray-200">Sepp Sonntag</span> – Virtual Art Department
                         Supervisor, PIXOMONDO
                       </div>
@@ -225,21 +230,20 @@
                     mountains to vibrant cityscapes, making it easy to find exactly what you need.
                   </p>
                   <div class="mt-8">
-                    <a href="#"
+                    <a href="https://mattepaint.com/gallery/latest/?page=1"
+                      target="_blank" rel="noopener noreferrer"
                       class="inline-flex rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Explore
                       library &rarr;</a>
                   </div>
                   <figure class="mt-16 border-l border-gray-200 pl-8 text-gray-400">
                     <blockquote class="text-base/7">
-                      <p>“MattePaint is pushing the boundaries of HDRI capture with ultra dynamic range and extremely
-                        high resolutions.”</p>
+                      <p>“The service that MattePaint offers is second to none for photo resources for professional
+                        Matte Painters and Environment Artists.”</p>
                     </blockquote>
                     <figcaption class="mt-6 flex gap-x-4 text-sm/6">
-                      <img
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt="" class="size-6 flex-none rounded-full" />
-                      <div><span class="font-semibold text-gray-200">Sepp Sonntag</span> – Virtual Art Department
-                        Supervisor, PIXOMONDO
+                      <img src="https://assets-cdn.mattepaint.com/landing/_nuxt/nickmarshall.w9Gqk6H_.jpg" alt=""
+                        class="size-6 flex-none rounded-full" />
+                      <div><span class="font-semibold text-gray-200">Nick Marshall</span> – VFX Supervisor, DNEG
                       </div>
                     </figcaption>
                   </figure>
@@ -270,21 +274,20 @@
 
                   </p>
                   <div class="mt-8">
-                    <a href="#"
+                    <!--<a href="https://mattepaint.com/gallery/latest/?page=1"
+                      target="_blank" rel="noopener noreferrer"
                       class="inline-flex rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Learn
-                      more &rarr;</a>
+                      more &rarr;</a>-->
                   </div>
                   <figure class="mt-16 border-l border-gray-200 pl-8 text-gray-400">
                     <blockquote class="text-base/7">
-                      <p>“Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper
-                        ac dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat
-                        enim tristique.”</p>
+                      <p>“Matte paint has become critical to my work flow. The quality is second to none and they are
+                        constantly updating the library off assets.”</p>
                     </blockquote>
                     <figcaption class="mt-6 flex gap-x-4 text-sm/6">
-                      <img
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt="" class="size-6 flex-none rounded-full" />
-                      <div><span class="font-semibold text-gray-200">Maria Hill</span> – Goodbye Kansas, Environment
+                      <img src="https://assets-cdn.mattepaint.com/landing/_nuxt/jamesvincent.CjGqhNlc.jpg" alt=""
+                        class="size-6 flex-none rounded-full" />
+                      <div><span class="font-semibold text-gray-200">James Vincent</span> – Archviz Supervisor
                         Lead</div>
                     </figcaption>
                   </figure>
@@ -306,7 +309,12 @@
             </div>
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
               <div class="mx-auto max-w-5xl py-32 sm:py-48 lg:py-56">
+                
+                
                 <div class="text-center">
+                  <img class="w-full object-contain max-h-28 mb-6"
+                            src="/Users/rokuspace/development/mattepaint/v3-mp/public/images/studio logos/goodbyekansas-group-white.png"
+                            alt="Goodbye Kansas Studios" width="158" height="48" />
                   <h1 class="text-balance text-5xl font-bold tracking-tight text-white sm:text-6xl">See how Goodbye
                     Kansas Studios' built ‘Shōgun’ with MattePaint
 
@@ -321,9 +329,10 @@
                   <div class="mt-10 flex items-center justify-center gap-x-6">
 
 
-                    <button type="button"
-                      class="rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">
-                      Read customer story &rarr; </button>
+                    <a href="https://mattepaint.com/blog/how-goodbye-kansas-achieved-stunning-visuals-in-shogun-with-mattepaint/"
+                      target="_blank" rel="noopener noreferrer"
+                      class="inline-flex rounded-md bg-primary-200 px-3.5 py-2.5 text-sm font-semibold text-gray-100 shadow-sm ring-1 ring-inset ring-primary-200 hover:bg-primary-100">
+                      Read customer story &rarr; </a>
                   </div>
                 </div>
               </div>
