@@ -1,0 +1,31 @@
+name: Rebuild test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✅ Checkout main branch
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Set up Git config
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: 🕒 Update README with timestamp
+        run: |
+          DATE=$(date)
+          # Remove any previous 'Last rebuild' line
+          sed -i '/Last rebuild:/d' README.md
+          # Append the new timestamp
+          echo "Last rebuild: $DATE" >> README.md
+
+      - name: 📤 Commit and push changes
+        run: |
+          git add README.md
+          git commit -m "Rebuild triggered on $DATE"
+          git push origin main
