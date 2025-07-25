@@ -1,4 +1,4 @@
-name: Rebuild test
+name: Academy Rebuild
 
 on:
   workflow_dispatch:
@@ -16,16 +16,14 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-      - name: 🕒 Update README with timestamp
+      - name: 🕒 Update README with exact timestamp
         run: |
-          DATE=$(date)
-          # Remove any previous 'Last rebuild' line
+          DATE=$(date +"%Y-%m-%d %H:%M:%S")
           sed -i '/Last rebuild:/d' README.md
-          # Append the new timestamp
           echo "Last rebuild: $DATE" >> README.md
 
       - name: 📤 Commit and push changes
         run: |
           git add README.md
-          git commit -m "Rebuild triggered on $DATE"
+          git commit -m "Rebuild triggered at $DATE"
           git push origin main
